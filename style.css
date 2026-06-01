@@ -100,7 +100,17 @@ p{
 .section{padding:clamp(4rem,9vw,7rem) 0;}
 
 /* ===== SECTION LABELS ===== */
-.section-eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:0.72rem;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:1.1rem;}
+.section-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  font-size:0.72rem;
+  font-weight:600;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  color:var(--gold);
+  margin-bottom:1.1rem;
+}
 .section-eyebrow::before,.section-eyebrow::after{content:'';display:block;width:32px;height:1px;background:var(--gold);}
 .section-title{margin-bottom:1rem;}
 .section-subtitle{font-size:clamp(1rem,2vw,1.1rem);color:var(--text-secondary);max-width:640px;line-height:1.8;}
