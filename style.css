@@ -111,19 +111,37 @@ p{
   color:var(--gold);
   margin-bottom:1.1rem;
 }
-.section-eyebrow::before,.section-eyebrow::after{content:'';display:block;width:32px;height:1px;background:var(--gold);}
+.section-eyebrow::before,.section-eyebrow::after{
+  content:'';
+  display:block;
+  width:32px;
+  height:1px;
+  background:var(--gold);
+}
 .section-title{margin-bottom:1rem;}
-.section-subtitle{font-size:clamp(1rem,2vw,1.1rem);color:var(--text-secondary);max-width:640px;line-height:1.8;}
+.section-subtitle{
+  font-size:clamp(1rem,2vw,1.1rem);
+  color:var(--text-secondary);
+  max-width:640px;
+  line-height:1.8;
+}
 
 /* ===== BUTTONS — pill/rounded ===== */
 .btn{
-  display:inline-flex;align-items:center;gap:10px;
-  font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:600;
-  letter-spacing:1.5px;text-transform:uppercase;
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  font-family:'DM Sans',sans-serif;
+  font-size:0.82rem;
+  font-weight:600;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
   padding:16px 34px;
-  border-radius:var(--btn-radius);   /* ← pill shape */
+  border-radius:var(--btn-radius);
   transition:var(--transition);
-  white-space:nowrap;position:relative;overflow:hidden;
+  white-space:nowrap;
+  position:relative;
+  overflow:hidden;
 }
 .btn::after{content:'';position:absolute;inset:0;background:rgba(255,255,255,0.12);opacity:0;transition:opacity 0.3s;border-radius:var(--btn-radius);}
 .btn:hover::after{opacity:1;}
