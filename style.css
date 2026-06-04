@@ -326,8 +326,22 @@ p{
   transition:var(--transition);
 }
 .mobile-nav-link:last-child{border-bottom:none;}
-.mobile-nav-link:hover{color:var(--gold);padding-left:10px;}
-.mobile-nav-cta{margin-top:1.5rem;background:var(--gold);color:var(--navy);text-align:center;padding:15px;border-radius:var(--btn-radius);font-size:0.82rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;}
+.mobile-nav-link:hover{
+  color:var(--gold);
+  padding-left:10px;
+}
+.mobile-nav-cta{
+  margin-top:1.5rem;
+  background:var(--gold);
+  color:var(--navy);
+  text-align:center;
+  padding:15px;
+  border-radius:var(--btn-radius);
+  font-size:0.82rem;
+  font-weight:700;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
 
 /* ===== HERO ===== */
 #hero{position:relative;min-height:100svh;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;}
