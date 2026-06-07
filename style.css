@@ -543,8 +543,21 @@ p{
   gap:clamp(1.5rem,4vw,4rem);
   flex-wrap:wrap;
 }
-.clients-label{font-size:0.7rem;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--text-muted);white-space:nowrap;flex-shrink:0;}
-.clients-divider{width:1px;height:36px;background:var(--border-light);flex-shrink:0;}
+.clients-label{
+  font-size:0.7rem;
+  font-weight:600;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  color:var(--text-muted);
+  white-space:nowrap;
+  flex-shrink:0;
+}
+.clients-divider{
+  width:1px;
+  height:36px;
+  background:var(--border-light);
+  flex-shrink:0;
+}
 .clients-pills{display:flex;gap:clamp(0.5rem,2vw,1rem);flex-wrap:wrap;flex:1;}
 .client-pill{display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border-light);border-radius:100px;padding:9px 20px;font-size:0.82rem;font-weight:500;color:var(--text-secondary);white-space:nowrap;transition:var(--transition);cursor:default;}
 .client-pill:hover{background:var(--gold-pale);border-color:var(--border-gold);color:var(--navy);transform:translateY(-2px);box-shadow:var(--shadow-sm);}
