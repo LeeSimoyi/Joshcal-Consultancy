@@ -558,14 +558,54 @@ p{
   background:var(--border-light);
   flex-shrink:0;
 }
-.clients-pills{display:flex;gap:clamp(0.5rem,2vw,1rem);flex-wrap:wrap;flex:1;}
-.client-pill{display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border-light);border-radius:100px;padding:9px 20px;font-size:0.82rem;font-weight:500;color:var(--text-secondary);white-space:nowrap;transition:var(--transition);cursor:default;}
-.client-pill:hover{background:var(--gold-pale);border-color:var(--border-gold);color:var(--navy);transform:translateY(-2px);box-shadow:var(--shadow-sm);}
-.client-pill svg{width:15px;height:15px;color:var(--gold);flex-shrink:0;}
+.clients-pills{
+  display:flex;
+  gap:clamp(0.5rem,2vw,1rem);
+  flex-wrap:wrap;
+  flex:1;
+}
+.client-pill{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  background:var(--cream);
+  border:1px solid var(--border-light);
+  border-radius:100px;
+  padding:9px 20px;
+  font-size:0.82rem;
+  font-weight:500;
+  color:var(--text-secondary);
+  white-space:nowrap;
+  transition:var(--transition);
+  cursor:default;
+}
+.client-pill:hover{
+  background:var(--gold-pale);
+  border-color:var(--border-gold);
+  color:var(--navy);
+  transform:translateY(-2px);
+  box-shadow:var(--shadow-sm);
+}
+.client-pill svg{
+  width:15px;
+  height:15px;
+  color:var(--gold);
+  flex-shrink:0;
+}
 
 /* ===== SERVICES ===== */
 #services{background:var(--cream);}
-.services-tabs{display:flex;gap:0;background:var(--white);border:1px solid var(--border-light);border-radius:var(--radius-md);padding:5px;flex-wrap:wrap;margin-bottom:2.5rem;margin-top:2.5rem;}
+.services-tabs{
+  display:flex;
+  gap:0;
+  background:var(--white);
+  border:1px solid var(--border-light);
+  border-radius:var(--radius-md);
+  padding:5px;
+  flex-wrap:wrap;
+  margin-bottom:2.5rem;
+  margin-top:2.5rem;
+}
 .svc-tab{flex:1;min-width:calc(33.333% - 4px);padding:clamp(10px,2vw,13px) clamp(8px,2vw,18px);font-size:clamp(0.7rem,1.5vw,0.82rem);font-weight:500;letter-spacing:0.5px;text-align:center;border-radius:calc(var(--radius-md) - 3px);color:var(--text-secondary);transition:var(--transition);border:none;cursor:pointer;background:transparent;}
 .svc-tab.active{background:var(--navy);color:var(--gold);font-weight:600;box-shadow:var(--shadow-sm);}
 .svc-tab:hover:not(.active){background:var(--cream);color:var(--navy);}
