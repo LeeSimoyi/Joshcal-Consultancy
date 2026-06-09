@@ -668,9 +668,26 @@ p{
   transition:transform 0.5s ease;
 }
 .svc-main:hover .svc-img{transform:scale(1.02);}
-.svc-img-wrap{overflow:hidden;border-radius:var(--radius-md);margin-bottom:1.5rem;}
-.svc-icon-wrap{width:56px;height:56px;background:var(--navy);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;margin-bottom:1.4rem;}
-.svc-icon-wrap svg{width:26px;height:26px;color:var(--gold);}
+.svc-img-wrap{
+  overflow:hidden;
+  border-radius:var(--radius-md);
+  margin-bottom:1.5rem;
+}
+.svc-icon-wrap{
+  width:56px;
+  height:56px;
+  background:var(--navy);
+  border-radius:var(--radius-md);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:1.4rem;
+}
+.svc-icon-wrap svg{
+  width:26px;
+  height:26px;
+  color:var(--gold);
+}
 .svc-main h3{margin-bottom:0.85rem;font-size:clamp(1.3rem,2.5vw,1.75rem);}
 .svc-main p{color:var(--text-secondary);margin-bottom:1.75rem;font-size:clamp(0.9rem,1.8vw,1rem);}
 .svc-tags{display:flex;flex-wrap:wrap;gap:8px;}
