@@ -816,8 +816,21 @@ p{
 }
 
 /* ===== PROCESS ===== */
-#process{background:var(--navy);overflow:hidden;position:relative;}
-#process::before{content:'';position:absolute;top:-200px;right:-200px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(200,150,62,0.06) 0%,transparent 70%);}
+#process{
+  background:var(--navy);
+  overflow:hidden;
+  position:relative;
+}
+#process::before{
+  content:'';
+  position:absolute;
+  top:-200px;
+  right:-200px;
+  width:600px;
+  height:600px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(200,150,62,0.06) 0%,transparent 70%);
+}
 #process .section-eyebrow{color:var(--gold);}
 #process .section-title{color:var(--white);}
 #process .section-subtitle{color:rgba(255,255,255,0.5);}
