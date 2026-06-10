@@ -749,7 +749,17 @@ p{
   box-shadow:var(--shadow-sm);
 }
 .svc-feature:hover::before{height:100%;}
-.svc-feature-icon{width:40px;height:40px;background:var(--gold-pale);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:var(--transition);}
+.svc-feature-icon{
+  width:40px;
+  height:40px;
+  background:var(--gold-pale);
+  border-radius:var(--radius-sm);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  transition:var(--transition);
+}
 .svc-feature:hover .svc-feature-icon{background:var(--navy);}
 .svc-feature-icon svg{width:18px;height:18px;color:var(--gold);}
 .svc-feature:hover .svc-feature-icon svg{color:var(--gold);}
