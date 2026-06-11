@@ -965,16 +965,44 @@ p{
   opacity:0;
   transition:opacity 0.4s;
 }
-.why-card:hover{border-color:var(--border-gold);box-shadow:var(--shadow-md);transform:translateY(-4px);}
+.why-card:hover{
+  border-color:var(--border-gold);
+  box-shadow:var(--shadow-md);
+  transform:translateY(-4px);
+}
 .why-card:hover::after{opacity:1;}
-.why-icon{width:50px;height:50px;background:var(--navy);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem;transition:var(--transition);}
-.why-card:hover .why-icon{background:var(--gold);transform:rotate(5deg);}
-.why-icon svg{width:24px;height:24px;color:var(--gold);}
+.why-icon{
+  width:50px;
+  height:50px;
+  background:var(--navy);
+  border-radius:var(--radius-md);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:1.1rem;
+  transition:var(--transition);
+}
+.why-card:hover .why-icon{
+  background:var(--gold);
+  transform:rotate(5deg);
+}
+.why-icon svg{
+  width:24px;
+  height:24px;
+  color:var(--gold);
+}
 .why-card:hover .why-icon svg{color:var(--navy);}
-.why-card h3{font-size:clamp(1rem,2.5vw,1.15rem);margin-bottom:0.6rem;}
-.why-card p{font-size:clamp(0.83rem,1.8vw,0.92rem);color:var(--text-secondary);line-height:1.75;}
+.why-card h3{
+  font-size:clamp(1rem,2.5vw,1.15rem);
+  margin-bottom:0.6rem;
+}
+.why-card p{
+  font-size:clamp(0.83rem,1.8vw,0.92rem);
+  color:var(--text-secondary);
+  line-height:1.75;
+}
 
-/* ===== INDUSTRIES SERVED (new section) ===== */
+/* ===== INDUSTRIES SERVED ===== */
 #industries{background:var(--cream);padding:clamp(3rem,6vw,5rem) 0;}
 .industries-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem;}
 .industry-card{position:relative;border-radius:var(--radius-lg);overflow:hidden;height:220px;cursor:pointer;}
