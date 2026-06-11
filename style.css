@@ -879,15 +879,45 @@ p{
   color:var(--navy);
   transform:scale(1.15) rotate(-5deg);box-shadow:0 0 0 8px rgba(200,150,62,0.12);
 }
-.process-step h4{font-family:'Playfair Display',serif;font-size:clamp(1rem,2vw,1.2rem);font-weight:600;color:var(--white);margin-bottom:0.6rem;}
-.process-step p{font-size:clamp(0.8rem,1.5vw,0.88rem);color:rgba(255,255,255,0.45);line-height:1.65;}
+.process-step h4{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(1rem,2vw,1.2rem);
+  font-weight:600;
+  color:var(--white);
+  margin-bottom:0.6rem;
+}
+.process-step p{
+  font-size:clamp(0.8rem,1.5vw,0.88rem);
+  color:rgba(255,255,255,0.45);
+  line-height:1.65;
+}
 
 /* ===== WHY CHOOSE ===== */
 #why{background:var(--white);}
-.why-layout{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,5rem);align-items:center;margin-top:2rem;}
+.why-layout{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:clamp(2rem,5vw,5rem);
+  align-items:center;
+  margin-top:2rem;
+}
 .why-image-col{position:relative;}
-.why-image-main{width:100%;height:clamp(380px,50vh,520px);object-fit:cover;border-radius:var(--radius-xl);box-shadow:var(--shadow-lg);}
-.why-image-accent{position:absolute;bottom:-1.5rem;right:-1.5rem;width:55%;border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);border:5px solid var(--white);}
+.why-image-main{
+  width:100%;
+  height:clamp(380px,50vh,520px);
+  object-fit:cover;
+  border-radius:var(--radius-xl);
+  box-shadow:var(--shadow-lg);
+}
+.why-image-accent{
+  position:absolute;
+  bottom:-1.5rem;
+  right:-1.5rem;
+  width:55%;
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-lg);
+  border:5px solid var(--white);
+}
 .why-badge{position:absolute;top:1.5rem;left:-1.5rem;background:var(--gold);color:var(--navy);padding:1.25rem 1.5rem;border-radius:var(--radius-md);box-shadow:var(--shadow-gold);z-index:2;}
 .why-badge-num{font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:800;line-height:1;}
 .why-badge-text{font-size:0.68rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-top:2px;}
