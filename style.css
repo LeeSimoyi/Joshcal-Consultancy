@@ -1214,10 +1214,34 @@ p{
   position:relative;overflow:hidden;
   transition:all 0.4s ease;
 }
-.testimonial-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity 0.4s;}
-.testimonial-card:hover{background:rgba(255,255,255,0.07);border-color:rgba(200,150,62,0.28);transform:translateY(-4px);}
+.testimonial-card::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  opacity:0;
+  transition:opacity 0.4s;
+}
+.testimonial-card:hover{
+  background:rgba(255,255,255,0.07);
+  border-color:rgba(200,150,62,0.28);
+  transform:translateY(-4px);
+}
 .testimonial-card:hover::before{opacity:1;}
-.quote-icon{font-family:'Playfair Display',serif;font-size:6rem;color:var(--gold);opacity:0.12;position:absolute;top:-15px;left:1.5rem;line-height:1;font-style:italic;}
+.quote-icon{
+  font-family:'Playfair Display',serif;
+  font-size:6rem;
+  color:var(--gold);
+  opacity:0.12;
+  position:absolute;
+  top:-15px;
+  left:1.5rem;
+  line-height:1;
+  font-style:italic;
+}
 .testimonial-text{font-family:'Playfair Display',serif;font-size:clamp(1.05rem,2.2vw,1.25rem);font-style:italic;color:rgba(255,255,255,0.85);line-height:1.8;margin-bottom:1.75rem;padding-top:0.5rem;position:relative;z-index:1;}
 .testimonial-author{display:flex;align-items:center;gap:14px;}
 .t-avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--navy);font-size:0.85rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:2px solid rgba(200,150,62,0.35);}
