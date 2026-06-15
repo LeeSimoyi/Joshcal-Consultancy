@@ -1271,17 +1271,54 @@ p{
   flex-shrink:0;
   border:2px solid rgba(200,150,62,0.35);
 }
-.t-name{font-size:0.9rem;font-weight:600;color:var(--gold);}
-.t-role{font-size:0.75rem;color:rgba(255,255,255,0.4);margin-top:1px;}
-.stars{display:flex;gap:3px;margin-bottom:0.9rem;}
-.star{color:var(--gold);font-size:0.8rem;}
+.t-name{
+  font-size:0.9rem;
+  font-weight:600;
+  color:var(--gold);
+}
+.t-role{
+  font-size:0.75rem;
+  color:rgba(255,255,255,0.4);
+  margin-top:1px;
+}
+.stars{
+  display:flex;
+  gap:3px;
+  margin-bottom:0.9rem;
+}
+.star{
+  color:var(--gold);
+  font-size:0.8rem;
+}
 
 /* ===== CONTACT ===== */
 #contact{background:var(--cream);}
-.contact-layout{display:grid;grid-template-columns:1fr 1.7fr;gap:clamp(2rem,5vw,4rem);margin-top:2.75rem;}
-.contact-info{display:flex;flex-direction:column;gap:1.1rem;}
-.contact-item{background:var(--white);border-radius:var(--radius-lg);padding:clamp(1.1rem,3vw,1.6rem);border:1px solid var(--border-light);display:flex;gap:1.1rem;align-items:flex-start;transition:all 0.35s ease;}
-.contact-item:hover{border-color:var(--border-gold);box-shadow:var(--shadow-sm);transform:translateX(4px);}
+.contact-layout{
+  display:grid;
+  grid-template-columns:1fr 1.7fr;
+  gap:clamp(2rem,5vw,4rem);
+  margin-top:2.75rem;
+}
+.contact-info{
+  display:flex;
+  flex-direction:column;
+  gap:1.1rem;
+}
+.contact-item{
+  background:var(--white);
+  border-radius:var(--radius-lg);
+  padding:clamp(1.1rem,3vw,1.6rem);
+  border:1px solid var(--border-light);
+  display:flex;
+  gap:1.1rem;
+  align-items:flex-start;
+  transition:all 0.35s ease;
+}
+.contact-item:hover{
+  border-color:var(--border-gold);
+  box-shadow:var(--shadow-sm);
+  transform:translateX(4px);
+}
 .contact-item-icon{width:48px;height:48px;background:var(--navy);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:var(--transition);}
 .contact-item:hover .contact-item-icon{background:var(--gold);}
 .contact-item-icon svg{width:22px;height:22px;color:var(--gold);}
