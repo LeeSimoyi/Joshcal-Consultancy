@@ -1514,15 +1514,51 @@ p{
   text-align:center;
   padding:clamp(4rem,8vw,7rem) 2rem;
 }
-.cta-content h2{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3.5rem);color:var(--white);margin-bottom:1rem;}
-.cta-content h2 em{color:var(--gold);font-style:italic;}
-.cta-content p{font-size:clamp(1rem,2vw,1.1rem);color:rgba(255,255,255,0.65);margin-bottom:2.5rem;max-width:520px;margin-left:auto;margin-right:auto;}
-.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;}
+.cta-content h2{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2rem,5vw,3.5rem);
+  color:var(--white);
+  margin-bottom:1rem;
+}
+.cta-content h2 em{
+  color:var(--gold);
+  font-style:italic;
+}
+.cta-content p{
+  font-size:clamp(1rem,2vw,1.1rem);
+  color:rgba(255,255,255,0.65);
+  margin-bottom:2.5rem;
+  max-width:520px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.cta-btns{
+  display:flex;
+  gap:1rem;
+  justify-content:center;
+  flex-wrap:wrap;
+}
 
 /* ===== FOOTER ===== */
-footer{background:var(--navy);color:rgba(255,255,255,0.5);padding:clamp(3.5rem,7vw,6rem) 0 0;}
-.footer-grid{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr;gap:clamp(2rem,4vw,3.5rem);margin-bottom:3.5rem;}
-.footer-brand-col .footer-logo{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:var(--gold);letter-spacing:2px;margin-bottom:4px;}
+footer{
+  background:var(--navy);
+  color:rgba(255,255,255,0.5);
+  padding:clamp(3.5rem,7vw,6rem) 0 0;
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.8fr 1fr 1fr 1fr;
+  gap:clamp(2rem,4vw,3.5rem);
+  margin-bottom:3.5rem;
+}
+.footer-brand-col .footer-logo{
+  font-family:'Playfair Display',serif;
+  font-size:1.8rem;
+  font-weight:700;
+  color:var(--gold);
+  letter-spacing:2px;
+  margin-bottom:4px;
+}
 .footer-brand-col .footer-logo-sub{font-size:0.62rem;letter-spacing:4px;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:1.1rem;}
 .footer-brand-col p{font-size:0.88rem;line-height:1.8;color:rgba(255,255,255,0.48);max-width:270px;margin-bottom:1.5rem;}
 .footer-tagline-italic{font-family:'Playfair Display',serif;font-style:italic;font-size:1.1rem;color:rgba(200,150,62,0.65);}
