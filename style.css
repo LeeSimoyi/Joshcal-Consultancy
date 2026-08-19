@@ -1765,9 +1765,16 @@ footer{
   .industries-grid{grid-template-columns:1fr;}
 }
 @media (max-width:480px){
-  .svc-tabs{overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none;}
+  .svc-tabs{
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    scrollbar-width:none;
+  }
   .svc-tabs::-webkit-scrollbar{display:none;}
-  .svc-tab{min-width:unset;flex:0 0 auto;}
+  .svc-tab{
+    min-width:unset;
+    flex:0 0 auto;
+  }
   .svc-side{grid-template-columns:1fr;}
   .form-row{grid-template-columns:1fr;}
   .why-grid{grid-template-columns:1fr;}
