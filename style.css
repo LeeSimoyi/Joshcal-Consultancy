@@ -1687,11 +1687,28 @@ footer{
   transform:translateX(-40px);
   transition:opacity 0.75s cubic-bezier(0.4,0,0.2,1),transform 0.75s cubic-bezier(0.4,0,0.2,1);
 }
-.reveal-left.visible{opacity:1;transform:translateX(0);}
-.reveal-right{opacity:0;transform:translateX(40px);transition:opacity 0.75s cubic-bezier(0.4,0,0.2,1),transform 0.75s cubic-bezier(0.4,0,0.2,1);}
-.reveal-right.visible{opacity:1;transform:translateX(0);}
-.reveal-scale{opacity:0;transform:scale(0.92);transition:opacity 0.75s cubic-bezier(0.4,0,0.2,1),transform 0.75s cubic-bezier(0.34,1.56,0.64,1);}
-.reveal-scale.visible{opacity:1;transform:scale(1);}
+.reveal-left.visible{
+  opacity:1;
+  transform:translateX(0);
+}
+.reveal-right{
+  opacity:0;
+  transform:translateX(40px);
+  transition:opacity 0.75s cubic-bezier(0.4,0,0.2,1),transform 0.75s cubic-bezier(0.4,0,0.2,1);
+}
+.reveal-right.visible{
+  opacity:1;
+  transform:translateX(0);
+}
+.reveal-scale{
+  opacity:0;
+  transform:scale(0.92);
+  transition:opacity 0.75s cubic-bezier(0.4,0,0.2,1),transform 0.75s cubic-bezier(0.34,1.56,0.64,1);
+}
+.reveal-scale.visible{
+  opacity:1;
+  transform:scale(1);
+}
 .reveal-delay-1{transition-delay:0.1s;}
 .reveal-delay-2{transition-delay:0.2s;}
 .reveal-delay-3{transition-delay:0.3s;}
